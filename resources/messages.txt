@@ -1,0 +1,8 @@
+
+Sat Apr 04 14:39:49 EEST 2020: Contact id 3: tata mon: Hello Tata mon!
+Sat Apr 04 14:40:06 EEST 2020: Contact id 1: adi jivan: Ceau Andrei!
+Sat Apr 04 14:40:56 EEST 2020: Contact id 4: fane patent: Hi Fane! Come fix my sink.
+Sat Apr 04 14:41:53 EEST 2020: Contact id 4: fane patent: Fane, when are you coming to fix my sink?
+Sat Apr 04 14:57:22 EEST 2020: Contact id 4: fane patent: FANEE!! HAI ODATA!!!
+Sat Apr 04 16:09:48 EEST 2020: Contact id 1: adi jivan: Adi test battery -1
+Sat Apr 04 16:10:43 EEST 2020: Contact id 1: adi jivan: Adi test 2 battery life remaining 273

@@ -1,0 +1,10 @@
+Sat Apr 04 15:30:35 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
+Sat Apr 04 15:34:25 EEST 2020: contactID: 2, firstName: mama, lastName: mia, phoneNumber: 444
+Sat Apr 04 15:35:07 EEST 2020: contactID: 3, firstName: tata, lastName: mon, phoneNumber: 999
+Sat Apr 04 15:56:49 EEST 2020: contactID: 3, firstName: tata, lastName: mon, phoneNumber: 999
+Sat Apr 04 15:57:16 EEST 2020: contactID: 2, firstName: mama, lastName: mia, phoneNumber: 444
+Sat Apr 04 16:00:40 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
+Sat Apr 04 16:00:49 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
+Sat Apr 04 16:01:16 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
+Sat Apr 04 16:07:43 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
+Sat Apr 04 16:09:39 EEST 2020: contactID: 3, firstName: tata, lastName: mon, phoneNumber: 999

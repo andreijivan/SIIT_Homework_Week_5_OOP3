@@ -1,0 +1,5 @@
+contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
+contactID: 2, firstName: mama, lastName: mia, phoneNumber: 444
+contactID: 3, firstName: tata, lastName: mon, phoneNumber: 999
+contactID: 4, firstName: fane, lastName: patent, phoneNumber: 555
+
