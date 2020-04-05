@@ -17,54 +17,32 @@ public class SamsungGalaxy9 extends Samsung {
         this.calls = new ArrayList<>();
         this.batteryLifeRemaining = getBatteryLife();
     }
-
     @Override
     public void addContact() {
-
     }
-
     @Override
     public void viewContactList() {
-
     }
-
     @Override
     public void sendTextMessage() {
-
     }
-
     @Override
     public void seeAllMessagesFromContact() {
-
     }
-
     @Override
     public void makeCall() {
-
     }
-
     @Override
     public void callHistory() {
-
     }
-
     @Override
     public void loadMessages() {
-
     }
-
     @Override
     public void loadContactList() {
-
     }
-
     @Override
     public void loadCalls() {
-
     }
 
-    @Override
-    public int loadBatteryLifeRemaining() {
-        return 0;
-    }
 }

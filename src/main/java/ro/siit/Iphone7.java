@@ -54,8 +54,5 @@ public class Iphone7 extends Iphone {
     public void loadCalls() {
 
     }
-    @Override
-    public int loadBatteryLifeRemaining() {
-        return 0;
-    }
+
 }

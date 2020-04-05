@@ -19,7 +19,7 @@ public class App
         phone.loadContactList();
         phone.loadMessages();
         phone.loadCalls();
-        phone.loadBatteryLifeRemaining();
+      //  phone.loadBatteryLifeRemaining();
         /*in tema ni se cere sa implementam metodele de tipul addContact/sendMessage/etc(nr de parametrii). Intrucat
         am mai facut asemenea teme, unde cream direct in main toate obiectele, de data asta am optat pentru meniu
          cu scanner si 3 fisiere .txt unde se memoreaza calls, contacts si messages. */

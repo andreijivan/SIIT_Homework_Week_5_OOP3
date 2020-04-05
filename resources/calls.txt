@@ -8,3 +8,5 @@ Sat Apr 04 16:00:49 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, ph
 Sat Apr 04 16:01:16 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
 Sat Apr 04 16:07:43 EEST 2020: contactID: 1, firstName: adi, lastName: jivan, phoneNumber: 333
 Sat Apr 04 16:09:39 EEST 2020: contactID: 3, firstName: tata, lastName: mon, phoneNumber: 999
+Sun Apr 05 12:02:04 EEST 2020: contactID: 4, firstName: fane, lastName: patent, phoneNumber: 555
+Sun Apr 05 12:02:19 EEST 2020: contactID: 4, firstName: fane, lastName: patent, phoneNumber: 555

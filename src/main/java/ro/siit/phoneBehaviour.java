@@ -10,5 +10,4 @@ public interface phoneBehaviour {
     void loadMessages();
     void loadContactList();
     void loadCalls();
-    int loadBatteryLifeRemaining();
 }

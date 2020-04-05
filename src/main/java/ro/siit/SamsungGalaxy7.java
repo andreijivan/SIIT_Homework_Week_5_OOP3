@@ -1,5 +1,5 @@
 package ro.siit;
-//sunt 250 linii de cod aici dar am preferat sa scriu mai user friendly decat mai concis si ambiguu
+//sunt 230 linii de cod aprox aici dar am preferat sa scriu mai user friendly decat mai concis si ambiguu
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -24,7 +24,6 @@ public class SamsungGalaxy7 extends Samsung  {
         this.calls = new ArrayList<>();
         this.batteryLifeRemaining = getBatteryLife();
     }
-
 
     Scanner scanner = new Scanner(System.in);
     @Override
@@ -155,7 +154,7 @@ public class SamsungGalaxy7 extends Samsung  {
             }
         }
         /*
-        //see all messages from phone test
+        // test to see all messages from phone
         List<String> copyOfMessages = new ArrayList<>(messages);
         for (String message: copyOfMessages) System.out.println(message);*/
 
@@ -164,7 +163,10 @@ public class SamsungGalaxy7 extends Samsung  {
         Path messagesDB = Paths.get("resources" + File.separator + "messages.txt");
         try {
             List<String>messageLines = Files.readAllLines(messagesDB);
-            messages.addAll(messageLines);
+            for (String messageRecord: messageLines){
+                messages.add(messageRecord);
+                batteryLifeRemaining--;
+            }
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -178,7 +180,6 @@ public class SamsungGalaxy7 extends Samsung  {
             Date date = new Date();
             System.out.println("Enter caller ID: ");
             int callerId = scanner.nextInt();
-           // scanner.nextLine();
             boolean checkFind = false;
             for (Contact contact : contacts) {
                 if (contact.getContactID() == callerId) {
@@ -196,7 +197,6 @@ public class SamsungGalaxy7 extends Samsung  {
         }
     }
     private void saveCallToPhone(){
-
         Path callsDB = Paths.get("resources" + File.separator + "calls.txt");
         try {
             Files.write(callsDB,prepareCallsForSave());
@@ -220,32 +220,12 @@ public class SamsungGalaxy7 extends Samsung  {
         Path callsDB = Paths.get("resources" + File.separator + "calls.txt");
         try {
             List<String>callLines = Files.readAllLines(callsDB);
-            calls.addAll(callLines);
-
+            for (String callRecord: callLines){
+                calls.add(callRecord);
+                batteryLifeRemaining-=2;
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-
-    public int loadBatteryLifeRemaining() {
-        Path callsDB = Paths.get("resources" + File.separator + "calls.txt");
-        try {
-            List<String>callLines = Files.readAllLines(callsDB);
-            for (String callRecord: callLines) if (callRecord.contains(":"))batteryLifeRemaining-=2;
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Path messagesDB = Paths.get("resources" + File.separator + "messages.txt");
-        try {
-            List<String>messageLines = Files.readAllLines(messagesDB);
-            for (String messageRecord: messageLines) if (messageRecord.contains(":"))batteryLifeRemaining--;
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return batteryLifeRemaining;
-    }
-
 }
